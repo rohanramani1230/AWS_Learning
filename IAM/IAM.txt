@@ -1,0 +1,31 @@
+- IAM 
+	- Identity access management
+	- IAM allows you to manage users and their level of access to the AWS console
+	- It is important to understand IAM and how it works, both for the exam and for
+	  administrating a company's AWS account in real life. 
+	- IAM offers following features
+		- Centralized contrl of AWS account
+		- Shared access to your AWS account
+		- Granular permissions
+			- People can access one service but not others
+		- Identity federation (including active directory, Facebook, LinkedIn)
+			- Using same username/password as microsoft account
+		- Multifactor authentication 
+		- Provides temporary access for users/devices and services where necessary
+		- Allows you to set up your own password rotation policy
+		- Integrates with many different AWS services
+		- Supports PCI DSS Compliance
+			- PCI DSS compliance is a framework for credit card details 
+
+	- Users
+		- End users such as people/ Employers of organization
+	- Grups
+		- A collection of users. Each user in the grup will inherit the permission of the 
+		  group
+	- Policies 
+		- Policies are made up of documents called Policy documents. These documents are
+		  in a format called JSON and they give permissions as to what a User/Group/Role
+		  is able to do.
+	- Roles 
+		- You craete roles and then assign them to AWS resources
+		- One part of AWS talks to another part of AWS: virtual machine to S3.

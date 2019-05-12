@@ -1,0 +1,10 @@
+- IAM is uniersal - It does not apply to regions at this time. 
+- The root account is simply the account craeted when first setyp your AWS account. It has complete admin access.
+- New users have no permissions when first created.
+- New users are assigned access key ID and Secret Access Keys when first created.
+- These ae not the same as a password. You cannot use the access key ID & Access Key to login to the console. 
+  You can use this to access AWS via the APIs and Command Line however. 
+- You only get to view the these once. If you lose them, you have to regenearte them. 
+- Always set up MFA on your root account.
+- You can create and customize your own password rotation policies. 
+
