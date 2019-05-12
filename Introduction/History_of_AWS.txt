@@ -1,0 +1,17 @@
+- Innovation requires two things. 
+	- The ability to try a lot of experiments
+	- not having to live with the collateral damage of failed experiments.
+
+- SQS officially launched in 2004
+- AWS officially launched in 2006
+- In 2007 over 180,000 developers on the platform. 
+- By 2010 all of amazon.com has moved over.
+- 2012 First re:Invent Conference. 
+- In 2013, Certifications launched
+- In 2014, Commited to acheive 100% renewable energy usage for its global footprint
+- In 2015, AWS braeks out its revenue: $6 Billion
+- In 2016, Run rate was $13 billion
+- In 2017, AWS launch releases a host of AI Services. Run rate hits $127 billion
+- In 2018, AWS launch machine learning specialty certs. Heavy focus on automating AI and ML.
+- Alexa specialty beta certificate launched. 10 Certs!
+

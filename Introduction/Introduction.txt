@@ -1,0 +1,29 @@
+- Introduction to AWS
+	- Why should I get certified
+		- Certifications are required for associate partners for certain businesses 
+		  who want to do business with Amazon
+
+	- What Certs can I do
+		- Practitioner Tier 
+		========================================
+		- Certified Solutions Architect Associate
+		- Certified Developer Associate
+		- Certified Sysops Administrator Associate
+		========================================
+		- Certified Solutions Architect Professional
+		- Devops Professional
+		========================================
+		- Advanced Networking
+		- Big Data
+		- Security
+		- Machine Learning
+
+	- More services are offered every year
+	- Cloud is currently 11.3% of company spending
+	- Amazon owns around 47% of the public cloud market
+	
+	- Amazon's own figures say that they own 51.80% of the cloud market.
+	
+	- Fastest growing puvblic cloud on the planet
+	- Safe industry to be in.
+
