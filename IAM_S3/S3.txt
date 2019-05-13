@@ -1,0 +1,74 @@
+- S3 provides developers and IT teams with secure durable highly scalable object storage. Amazon S3
+  is easy to use, with a simople web services interface to store and retieve any amount of data from
+  anywhere on the web.
+- S3 is a safe place to store your files.
+- It is object based storage
+- Data is spread across multiple storages and multiple facilities.
+
+- S3 is object based -allows you to upload files.
+- Files canbe frm 0 Bytes to 5 TB.
+- There is unlimited.
+- Files are stored in buckets.
+
+- S3 is a universal name space. That is, names must be unique globally.
+
+- When you upload a file to S3, you will receive a HTTP 200 code if the upload was successful.
+
+- S3 is object based. 
+	- Key (This is the simply the name of the object)
+	- Value (This is simply the data and is made up of a sequence of bytes)
+	- Versioning (Important for versioning)
+	- Metadata (Data about data you are storing)
+	- Subresources
+		- Access control lists
+			- Permissions for files and such
+		- Torrent
+	
+	How does consistency work for S3
+		- Read after write consistency for puts of new objects
+		- Eventual consistency for overwrite PUTS and deletes can take some time to propogate.
+	
+	S3 has the following guarantees from Amazon
+		- Built for 99.99% for the S3 Platform
+		- Amazon guarantee 99.9% availability
+		- Amazon guarantees 99.99999999999% durability for S3 information.
+
+	S3 has the following features:
+		- Tiered Storage available
+		- Lifecycle management
+		- Versioning
+		- Encryption
+		- MFA delete
+		- Secure your data using access control listss and bucket policies. 
+		
+	S3 Storage tiers
+		S3 Standard
+			- 99.99% availabiluity and 99.99999999999% durability
+		S3 -IA 
+			- Infrequenty accessed data for data that is accessed frequently but
+			  there is retreival fee
+		- S3 One Zone -IA 
+			- For where you want a lower-cost option for infrequently accessed data,
+			  but do not require the multiple availability zone. RRS storage. 
+		- S3 Intelligent Tiering
+			- Useds machine learning to optimize costs by automatically moving data to the most
+			  cost-effective access tier, without performace impact or operational overhead. 
+
+	Glacier Storage Tiers
+		- S3 Glacier
+			- S3 Glacier is a secure, durable, and low-cost storage class for data archiving. You
+			  can reliably store any amount of data at costs that are competitive with or cheaper. 
+		- S3 Glacier deep archive
+			- Lowest storage cost but retreival time is 12 hours. 
+			
+	For S3 you are charged for the following ways
+		- Storage
+		- Requests
+		- Storage management Pricing
+		- Data transfer Pricing
+		- Transfer acceleration
+		- Cross region replication.
+		
+	Amazon S3 transfer acceleration uses edge locations to get global network over amazon network. 
+	- You cannot install OS or database on S3. 
+	- You can do MFA delete to deleted

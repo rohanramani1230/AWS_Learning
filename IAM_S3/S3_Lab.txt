@@ -1,0 +1,3 @@
+- Buckets are a universal name space
+- Upload an object to S3 receie a HTTP 200 code
+- Control access to buckets using either bucketACL or using Bucket policies
