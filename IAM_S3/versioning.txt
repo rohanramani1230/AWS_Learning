@@ -1,0 +1,5 @@
+Stores all the versions of an object including all writes and even if you delete an object)
+Great backup tool
+Once enabled, cannot be disabled
+Multifactor authentication delete capability
+Integrates with lifecycle rules
