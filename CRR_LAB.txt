@@ -1,0 +1,6 @@
+Versioning must be enabled on both the source and destination buckets
+Regions must be unique
+Files in an existing bucket are not replicated automatically
+All subsequent updated files will be replicated automatically.
+Delete markers are not replicated
+Deleting individual versions or delete markers will not be replicated. 

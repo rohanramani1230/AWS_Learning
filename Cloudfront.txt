@@ -1,0 +1,24 @@
+- A content delivery network is a system of distributed servers that deliver webpages and other 
+  web contents to a user based on the geographic locationns of the user, the origin of the 
+  webpage, and a content delivery server. 
+
+- Edge locations are locations where content will be cached. This is separate to an AWS Region/AZ
+
+- Origin - This is the origin of all the files that the CDN will distribute. This can be an S3 
+  Bucket, an EC2 instance, an elastic load balancer, or Route53. 
+
+- Distribution - This is the name given the CDN which consists of a collection of edge locations.
+
+- Amazon cloudfront can be used to deliver your entire website, including dynanmic, static
+  and interactive content using a global network of edge locations. Requests for your contetn are 
+  automatically routed to the nearest edge location so content is delivered with the best possible  performance.
+
+- Two types of distribution
+	- Web Distribution
+	- RTMP Distribution - Streaming. 
+
+- Edge locations are not just READ only -- you can write to them too.
+- Objects are cached for the life of the TTL (Time to Live)
+- You can clear cached objects but you will be charged. 
+
+
