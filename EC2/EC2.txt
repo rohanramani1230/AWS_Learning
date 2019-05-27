@@ -1,0 +1,14 @@
+- Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the
+  cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes,
+  allowing you to quickly scale capacity, both up and down, as your computing requirements change.
+
+- On Demand: Hourly
+- Reserved: Contract with more up front becoming cheaper
+- Spot: Moves Around like stock
+- Dedicated Hosts: Get dedicated machine to you.
+
+- If the spot instance is terminated by Amazon EC2, you will not be charged for a partial hour of
+  usage. However if you terminate the instance yourself, you will be charged for any hour in which
+  the instance ran.  
+
+
